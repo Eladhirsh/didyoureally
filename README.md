@@ -1,5 +1,11 @@
 # didyoureally
 
+> Development has moved to [Callprobe](https://github.com/Eladhirsh/callprobe).
+> Both engines now live in one repository; Didyoureally is under
+> [`packages/didyoureally`](https://github.com/Eladhirsh/callprobe/tree/main/packages/didyoureally).
+> Use the [shared setup guide](https://github.com/Eladhirsh/callprobe/blob/main/CONTRIBUTING.md)
+> and open new issues and pull requests there. This repository retains the pre-migration history.
+
 **Catch AI agents that tell users they did something they didn't.**
 
 Your agent says *"I refunded $40 and emailed you the receipt."* The trace says it refunded $400, and the email tool was never called. The user trusts the summary, never sees the trace, and finds out on their bank statement.

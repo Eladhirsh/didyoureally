@@ -1,5 +1,10 @@
 # AGENTS.md
 
+Development has moved to the Callprobe repository. Work on Didyoureally in
+`packages/didyoureally` there, after reading the unified root and package AGENTS.md.
+This checkout is retained for historical reference. The instructions below describe
+the pre-migration standalone layout.
+
 ## What this project is
 
 didyoureally checks whether an AI agent told the user the truth about what it did. It reads an agent transcript plus its tool-call trace, extracts claims about completed actions, and matches each claim against the actual calls.
